@@ -8,3 +8,9 @@ arr_3 = np.ones(((1,1,3))) #一个三维块 每个有一行 一行有三个元�
 print(arr_3)
 
 print (arr_1.shape) ##查看形状
+
+arr1 = np.arange(10)
+arr2 = arr1.reshape (2,-1)  ##.reshape可以重塑数组维度 其中-1可以自动计算
+print(arr2)
+arr3 = arr2.reshape (-1)  ##降一维
+print(arr3)
