@@ -4,6 +4,7 @@ arr1 = np.arange(10)
 print (arr1[1:4]) #从第二个到第五个
 print (arr1[ : :2]) # 每隔两个切一次
 print(arr1[1:-1:2]) ##头尾各一个不要 每隔两次切一个
+
 ##矩阵的切片
 arr2 = np.arange(1,21).reshape(4,5)
 print (arr2[1:3,1:-1]) #行取12 列前后不要
